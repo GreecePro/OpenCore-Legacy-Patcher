@@ -79,7 +79,7 @@ Once the file is downloaded, mount the .iso image:
 Then open terminal and use the `rsync` command with the disk image set as the source and your USB drive set as the target. (Replace "CCCOMA_X64" with the mounted image's partition name, and replace "InstallWin10" with your USB Drive's name).
 
 ```
-rsync -r -P /Volumes/CCCOMA_X64/ /Volumes/InstallWin10
+sudo rsync -r -P /Volumes/CCCOMA_X64/ /Volumes/InstallWin10
 ```
 
 ![](./images/rsync-progess.png)
